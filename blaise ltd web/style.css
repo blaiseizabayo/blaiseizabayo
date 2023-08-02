@@ -1,0 +1,145 @@
+
+body {
+  font-family: verdana;
+  margin: 0;
+  padding: 0;
+  background-color: white; 
+}
+
+
+nav{
+  background-color: #9E00FF; 
+  padding: 2%;
+  text-align: center;
+}
+
+nav a{
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+  text-decoration: none;
+
+}
+nav a:hover{
+background-color: purple;
+
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+   color: white;
+    font-weight: bold;
+    background-color: purple;
+    border: 2px solid purple;
+     padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+  background-color: #9E00FF ;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 2%;
+}
+
+
+.product-page {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.product-image {
+  width: 100%;
+}
+img{
+  width: 100%;
+  height: 50%;
+
+}
+.product-description {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.product-description p {
+  margin-bottom: 10px;
+}
+
+
+.images{
+width: 50%;
+height: 20%;
+}
+
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+textarea{
+  height: 120px;
+}
+input[type="submit"] {
+  margin-top: 20px;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
+  cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #AD49EA;
+}
+
+
+
+
+.our{
+background-color: purple;
+color: white;
+text-align: center;
+}
+.our a{
+  color: orange;
+  text-decoration: none;
+  border: 3px solid purple;
+  font-weight: bold;
+  font-size: 123%;
+  background-color: black;
+}
+
+.our a:hover{
+ background-color:  #7C12BD ;
+}
+
+
+.contact{
+  margin-top: -30%;
+  margin-left: 75%;
+}
